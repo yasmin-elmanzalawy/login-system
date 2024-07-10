@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/signup.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Sign Up</title>
+</head>
+
+<body  >
+    <div class="signUpSection d-flex align-items-center">
+        <div class="container w-50 signupContainer text-center rounded-2 p-3 shadow-lg">
+            <h1>Smart Login System</h1>
+            <div class="signUpForm m-5">
+                <input id="name" class="my-4 form-control" placeholder="Enter your name" type="text">
+                <input id="email" class="my-4 form-control" placeholder="Enter your Email" type="text">
+                <input id="password" class="my-4 form-control" placeholder="Enter your password" type="text">
+                <button id="signUpBtn" class="signUpBtn m-auto d-block " type="submit">Sign Up</button>
+                <div id="errorMsg" class="text-danger d-none">Invalid Data</div>
+                <div id="emailDuplicate" class="text-danger d-none">This email already exist </div>
+                <div id="successMsg" class="text-success d-none">User signed up successfully!</div>
+            </div>
+            <p>You have an account? <span><a class="signInLink" href="./login.html">Sign in</a></span></p>
+        </div>
+    </div>
+
+    <script src="./js/jquery-git.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script> 
+    <script src="./js/signUp.js"></script>
+</body>
+
+</html>

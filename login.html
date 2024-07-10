@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="LoginSection d-flex align-items-center">
+        <div class="container w-50 LoginContainer text-center rounded-2 p-3 shadow-lg">
+            <h1>Smart Login System</h1>
+            <div class="LoginForm m-5">
+                
+                <input id="email" class="my-4 form-control" placeholder="Enter your Email" type="text">
+                <input id="password" class="my-4 form-control" placeholder="Enter your password" type="text">
+                <button id="LoginBtn" class="LoginBtn m-auto d-block " type="submit">Login</button>
+                <div id="errorMsg" class="text-danger d-none mt-2">Invalid User Data</div>
+            </div>
+            <p>You have an account? <span><a class="signUpLink" href="./index.html">Sign Up</a></span></p>
+        </div>
+    </div>
+    <script src="./js/jquery-git.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/login.js"></script> 
+
+</body>
+</html>

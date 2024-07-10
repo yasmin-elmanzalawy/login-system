@@ -1,0 +1,16 @@
+.Homesection{
+    height: 100vh;
+}
+.logout{
+    top:50px;
+    right: 20px;  
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.logout:hover{
+    background-color: rgb(106, 106, 106);
+
+}
